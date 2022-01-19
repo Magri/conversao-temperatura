@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  conversao-temperatura:
+    image: magri/conversao-temperatura:1.0
+    hostname: node-conversao-temperatura
+    ports:
+      - 8080:8080
